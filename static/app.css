@@ -3,13 +3,52 @@
   text-align: center;
   font-size: large;
   padding:10px;
+  min-height: 300px;
 }
 .title{
   font-weight: bold;
-
+}
+.chooseSurvey{
+  padding:10px;
+  margin:5px;
+}
+.surveyButton{
+  font-weight: bold;
+  padding:10px;
+  border-radius: 5px;
 }
 .submitSurvey{
   text-align: center;
   padding:10px;
   background-color: rgb(245, 243, 225);
+  min-height: 400px;
 }
+.flexBox{
+  display: flex;
+}
+.flex_item{
+  display: flex;
+  width:50%;
+}
+.answer{
+  color:red;
+}
+li.answer{
+  list-style: none;
+}
+.center{
+  margin-left: 20%;
+}
+.centerMore{
+  margin-left: 27%;
+}
+.screenColor{
+  background-color: rgb(193, 215, 243);
+}
+.questions{
+  background-color:rgb(193, 215, 243);
+  min-height: 500px;
+  margin:5px;
+  padding:10px;
+}
+

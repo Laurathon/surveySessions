@@ -1,6 +1,24 @@
 {% extends 'base.html' %} {% block title %}Thank you for completing the survey{% endblock %} {% block content
   %}
-  <h1>Thank you for completing the Survey</h1>
-  
-  
+  <h1 class="center">Thank you for completing the Survey</h1>
+  <h3 class ="centerMore">Here are your responses:</h3>
+  <div class ="flexBox screenColor">
+    
+    <section class ="flex_item">       
+      <ul>
+      {% for question in questions %}
+    
+        <li>{{question.question}}</li>
+      {% endfor %}
+      </ul>  
+    </section>   
+    <section class ="flex_item answer">
+      <ul>
+      {% for response in responses %}
+    
+        <li class ="answer">{{response}}</li>
+      {% endfor %}
+      </ul>  
+    </section>       
+</div>
   {% endblock %}

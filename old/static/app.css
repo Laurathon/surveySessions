@@ -1,0 +1,15 @@
+.description{
+  background-color: #f0c3c3;
+  text-align: center;
+  font-size: large;
+  padding:10px;
+}
+.title{
+  font-weight: bold;
+
+}
+.submitSurvey{
+  text-align: center;
+  padding:10px;
+  background-color: rgb(245, 243, 225);
+}
